@@ -12,7 +12,6 @@ class DeleteTaskBtn extends Component {
   }
 
   onClickAction() {
-    console.log(14234, 'delete clck')
     this.props.dispatch(deleteTask(this.props.task));
   }
 
